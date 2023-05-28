@@ -1,5 +1,8 @@
+import React from "react";
 import FunctionalComp from "./components/FunctionalComp";
 import {ClassComp, ClassComp1} from "./components/ClassComp";
+import Click from "./components/Click";
+import Counter from "./components/Counter"
 
 function App() {
   return (
@@ -9,6 +12,8 @@ function App() {
       <FunctionalComp />
       <ClassComp />
       <ClassComp1 />
+      <Click />
+      <Counter />
     </div>
     
   );
